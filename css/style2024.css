@@ -398,7 +398,6 @@ ol.type li a:hover {
 	font-weight: 400;
 	line-height: 32px;
 }
-
 .owl-theme .owl-controls .owl-page span {
 	display: block;
 	width: 12px;
@@ -421,18 +420,6 @@ ol.type li a:hover {
 	background: #fff;
 	border: 1px solid #fff;
 }
-
-.container img {
-  height: 100%;
-  width: 100%;
-}
-
-.container img {
-  object-fit: contain;
-/* or
-  object-fit: cover; */
-} 
-
 /* Footer Section*/
 #footer {
 	background: white;
@@ -475,4 +462,28 @@ ol.type li a:hover {
 }
 #footer a:hover {
 	color: #ccc;
+}
+.imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.imageContainer img {
+    max-width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+    flex: 1 1 auto;
+    /* Allow images to grow and shrink */
+    object-fit: cover;
+}
+
+/* Optional: Add media queries for responsiveness */
+@media (max-width: 600px) {
+    .container img {
+        flex: 1 1 100%;
+        /* Full width on small screens */
+    }
 }
