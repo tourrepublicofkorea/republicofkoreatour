@@ -401,8 +401,8 @@ ol.type li a:hover {
 #testimonials .imageContainer img {
 	position: center;
 	display: block;
-	width: 500px;
-	height: 500px;
+	width: 200px;
+	height: 200px;
 }
 .owl-theme .owl-controls .owl-page span {
 	display: block;
