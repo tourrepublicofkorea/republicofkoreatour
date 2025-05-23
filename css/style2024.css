@@ -398,12 +398,6 @@ ol.type li a:hover {
 	font-weight: 400;
 	line-height: 32px;
 }
-#testimonials .imageContainer img {
-	position: center;
-	display: block;
-	width: 200px;
-	height: 200px;
-}
 .owl-theme .owl-controls .owl-page span {
 	display: block;
 	width: 12px;
